@@ -77,17 +77,18 @@ function Skills() {
             </div>
 
             <div className="container container_skills">
-                {SkillsData.map(({  image, title, disc }) => ( 
-                <article className='card_skill'>
-                    <div className="icon">
-                        <img src={image} alt="" />
-                    </div>
-                    <div className="content">
-                            <h4>{title}</h4>
-                            <p className='text-light'>{disc}</p>
-                    </div>
-                </article>    
-            ))}
+                {SkillsData.map(({ id, image, title, disc }) => ( 
+  <article className='card_skill' key={id}>
+    <div className="icon">
+      <img src={image} alt={title} />
+    </div>
+    <div className="content">
+      <h4>{title}</h4>
+      <p className='text-light'>{disc}</p>
+    </div>
+  </article>    
+))}
+
             </div>
         </section>
     )
