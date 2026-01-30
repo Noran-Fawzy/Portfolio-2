@@ -14,7 +14,6 @@ function About() {
             <div className="container about_container">
                 <div className="about_me">
                     <div className="about_me_image">
-                    <img src={ImageMe} alt="" />
             </div>
                 </div>
                 <div className="about_content">
@@ -38,7 +37,7 @@ function About() {
                             <small>10+ completed</small>
                         </div>
                     </div>
-                    <p>My name is Noran Fawzy Najm, a third-year Computer Science student majoring in Medical Informatics at Zagazig National University. <br/>
+                    <p>My name is Noran Fawzy Najm, a third-year Computer Science student majoring in Medical Informatics at Zagazig National University. <br/> 
                         I have a deep passion for technology, especially where it intersects with healthcare. <br />
                         I believe in the power of innovation to improve lives and streamline medical systems, and that belief is what drives me to keep learning, building, and exploring. <br />
                         I'm also interested in using version control tools like Git and platforms like GitHub to collaborate and manage code efficiently. <br />

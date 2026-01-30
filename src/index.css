@@ -8,29 +8,15 @@
     text-decoration:none ;
 }
 
-  /* :root {
-  --color-bg: #1f1f38;
+:root {
+    --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
     --transition: all 0.4s ease; 
-}*/
-        :root {
-            --color-bg: #f5f1eb;
-            /* بيج فاتح */
-            --color-bg-variant: #e6ded3;
-            /* بيج أغمق شوية */
-            --color-primary: #7b4a2e;
-            /* بني */
-            --color-primary-variant: rgba(123, 74, 46, 0.4);
-            --color-white: #2b1d14;
-            /* بني غامق للنص */
-            --color-light: rgba(43, 29, 20, 0.6);
-            --transition: all 0.4s ease;
-        }
-
+}
 
 body{
     font-family: "Poppins", sans-serif;
