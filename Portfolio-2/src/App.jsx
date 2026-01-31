@@ -8,9 +8,6 @@ import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
 function App() {
-    const routes = createHashRouter([
-
-    ])
     return (
         <>
             <Nav/>
@@ -24,5 +21,5 @@ function App() {
         </>
     )
 }
-   
+
 export default App
