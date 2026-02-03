@@ -10,6 +10,7 @@ import IMG7 from '../../assets/portfolio7.jpg'
 import IMG8 from '../../assets/portfolio8.jpg'
 import IMG9 from '../../assets/portfolio9.jpg'
 import IMG10 from '../../assets/portfolio10.jpg'
+import IMG11 from '../../assets/portfolio11.jpg'
 
 const portfolioData = [
     {
@@ -100,7 +101,17 @@ const portfolioData = [
         disc: ' A logic-based problem-solving game designed to challenge the players thinking skills. The game presents random questions or tasks that require focus, quick decision-making, and analytical thinking.Developed using HTML, CSS, and JavaScript with dynamic rendering, score tracking, and responsive design. The goal is to help players improve their logical reasoning through fun, interactive challenges.',
         github: 'https://github.com/enghenzoo/Pyramind.git',
         demo: 'https://pyramind.vercel.app/ '
+    },
+
+    {
+        id: 11,
+        image: IMG11,
+        title: 'Coffee Shop',
+        disc: ' Grand Coffee is a static coffee shop website built with HTML & CSS only. It showcases the café’s layout, menu, and contact info with a clean, perfect for demonstrating front-end web design skills.',
+        github: 'https://github.com/Noran-Fawzy/Grand-Coffee',
+        demo: 'https://noran-fawzy.github.io/Grand-Coffee/ '
     }
+
 ]
 function Projects() {
     return (
